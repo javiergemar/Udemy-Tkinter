@@ -1,7 +1,7 @@
 from tkinter import *
 
 window = Tk()
-window.title('Posicionamiento grid')    # El posicionamiento grid se realiza por filas y columnas.
+window.title('Posicionamiento grid')
 window.geometry('400x200')
 
 label = Label(window, text='Etiqueta')

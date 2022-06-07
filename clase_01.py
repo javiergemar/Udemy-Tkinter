@@ -5,8 +5,8 @@ from tkinter import *
 ventana = Tk()
 
 '''
-Creamos un objeto Label y lo asignamos a la variable etiqueta. En los parámetros de Label le decimos en la ventana
-que se tiene que mostrar la etiqueta y una serie de parámetros. 
+Creamos un objeto Label y lo asignamos a la variable etiqueta. En los parámetros de Label le decimos en
+la ventana que se tiene que mostrar la etiqueta y una serie de parámetros. 
 '''
 etiqueta = Label(ventana, text='Hola mundo')
 
@@ -14,7 +14,7 @@ etiqueta = Label(ventana, text='Hola mundo')
 etiqueta.pack()
 
 ''' 
-Mantiene la ventana abierta en pantalla hasta que decidamos cerrarlo. El código siempre tiene que terminar
-con mainloop().
+Mantiene la ventana abierta en pantalla hasta que decidamos cerrarlo. El código siempre tiene que
+terminar con mainloop().
 '''
 ventana.mainloop()
