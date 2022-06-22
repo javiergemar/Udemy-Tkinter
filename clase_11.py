@@ -19,7 +19,10 @@ listaProductos.insert(2, 'Producto 3')
 listaProductos.insert(3, 'Producto 4')
 listaProductos.pack()
 
-# Eliminar productos
+'''
+Para eliminar un producto usamos la siguiente función y entre paréntesis el índice del producto.
+En este caso eliminamos 'Producto 1' con índice 0.
+'''
 listaProductos.delete(0)
 
 entrada1 = Entry(root, bd=10)
